@@ -1,0 +1,4 @@
+Disable Screensaver...
+1. sudo apt-get install xscreensaver
+2. reboot
+3. Menu>Preferences>Screensaver>Display Modes>Mode: Disable Screen Saver

@@ -1,0 +1,20 @@
+Setting a Static IP...
+
+sudo nano /etc/dhcpcd.conf
+
+Add the following to your file...
+
+======= 
+# Example static IP configuration for wireless:
+interface wlan0
+static ip_address=192.168.1.100/24
+static routers=192.168.1.1
+static domain_name_servers=192.168.1.1
+static domain_search=
+
+# Example static IP configuration for wired:
+interface eth0
+static ip_address=192.168.1.101/24
+static routers=192.168.1.1
+static domain_name_servers=192.168.1.1
+static domain_search=
