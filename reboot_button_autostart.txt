@@ -23,7 +23,7 @@ if [ "$_IP" ]; then
 fi
 
 # Start the GPIO Shutdown Python Script
-python /home/pi/shutdown_pi.py &
+python /home/pi/Scripts/shutdown_pi.py &
 
 exit 0
 =======
