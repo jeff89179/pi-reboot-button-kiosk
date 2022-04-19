@@ -29,3 +29,6 @@ Setting localizations, enabling SSH, VNC, changing hostname, update...
 3. Changing hostname can be done with "sudo raspi-config" and going under "Network Options".
 
 ===================================================================
+
+2022.04.19
+- added a custom start button, replacing /usr/share/PiXflat/32x32/places/start-here.png with a renamed CST-Pi-Start-Button-32x32.png (had to use sudo and reboot afterwards for it to take effect)
