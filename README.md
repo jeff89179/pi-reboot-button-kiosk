@@ -32,3 +32,6 @@ Setting localizations, enabling SSH, VNC, changing hostname, update...
 
 2022.04.19
 - added a custom start button, replacing /usr/share/PiXflat/32x32/places/start-here.png with a renamed CST-Pi-Start-Button-32x32.png (had to use sudo and reboot afterwards for it to take effect)
+- reboot button wasn't working (ended up being that the wires to the button were broken at the contacts), so I found a new pre-made script to install https://howchoo.com/g/mwnlytk3zmm/how-to-add-a-power-button-to-your-raspberry-pi
+https://github.com/Howchoo/pi-power-button
+https://github.com/jeff89179/pi-power-button
